@@ -1,0 +1,3 @@
+#!/bin/bash
+
+geth --networkid 1444 --datadir "./node2/data" --bootnodes enode://a4f1d222c6f8d9cc6c3dfab0184e657f03846383e74f744d44003ba1122d60aa492eb67f897cc80185c96aee0b43464b4fe67b1db4cfdc780dee693a20e0ad38@127.0.0.1:0?discport=30301 --port 30304 --ipcdisable --syncmode full --http --allow-insecure-unlock --http.corsdomain "*" --http.port 8548 --unlock 0xBa45e587EBF27B0722EC7F28092DeBcdFe9Ce9a6 --password "./node2/password.txt" console
